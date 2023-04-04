@@ -1,9 +1,58 @@
-<html>
- 
-<body>
-  <h1>Philip Siu</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+
+<html lang eniUS>
+    <head>
+        <title>Blue Sky Concepts</title> <!--This is what will be written on the tab in the browser-->
+        <link href="./styles.css" rel="stylesheet"> <!--This links this html document to the CSS style sheet to stylize the document.
+            This uses a relative path since the document is in the same folder.  rel identifies the relationship between this file and the 
+            file that we want.  So this is relationship is a stylesheet-->
+
+    </head>
+    <body>
+        <header>
+            <a href="./BSC Test Page00005.html"><img class="logo" src="./BSC_logo.jpeg"></a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                
+                <div class="dropdown"> <!--Artists Dropdown Menu-->
+                    <button class="dropbtn">Artists</button>
+                    <div class="dropdown-content">
+                        <a>ItsGeoffrey</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown"> <!--Plushies Dropdown Menu-->
+                    <button class="dropbtn">Plushies</button>
+                    <div class="dropdown-content">
+                        <a>Mythical Treats</a>
+                        <a>Animal Treats</a>
+                        <a>Pets</a>
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <button class="dropbtn">Product Competitions</button>
+                    <div class="dropdown-content">
+                        <a>Plushies</a>
+                        <a>Apparel</a>
+                    </div>
+                </div>
+    
+                <a href="#specials">Specials</a>
+                <a href="./About Us/About Us.html">About Us</a>
+                
+    
+            </nav>
+        </header>
+
+        <div class="content">
+            <h2 class="categories">Featured Products</h2>
+            <h2 class="categories">Artist Spotlight</h2>
+            <h2 class="categories">On-going Design Competition</h2>
+        </div>
+
+
+    </body>
+
 </html>
